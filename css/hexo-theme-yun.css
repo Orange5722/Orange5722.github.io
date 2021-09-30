@@ -1949,6 +1949,99 @@ body::before {
 .progress-circle-container {
   position: absolute;
 }
+#local-search-input {
+  outline: none;
+}
+#local-search-result {
+  overflow: auto;
+  margin: 0;
+  padding: 0.5rem 0 1rem 0;
+  height: calc(100% - 160px);
+}
+#local-search-result ul.search-result-list {
+  margin: 0;
+  padding: 0;
+}
+#local-search-result ul.search-result-list li {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0;
+}
+#local-search-result ul.search-result-list li .search-result-title {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+#local-search-result ul.search-result-list li .search-result {
+  margin: 0;
+  font-size: 0.8rem;
+}
+#local-search-result ul.search-result-list li .search-result .search-keyword {
+  color: #f00;
+  font-style: normal;
+  text-decoration: underline;
+}
+.search-popup {
+  background-image: url("https://i.loli.net/2021/08/31/WxR1KeCZOSpQswm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 4.5rem;
+  margin: 0;
+  opacity: 0;
+  z-index: 30;
+  transition: 0.6s;
+  visibility: hidden;
+}
+.search-popup.show {
+  visibility: visible;
+  opacity: 1;
+}
+.search-header .close-icon {
+  position: fixed;
+  top: 0.6rem;
+  right: 0.8rem;
+}
+.search-input {
+  background: transparent;
+  color: var(--hty-text-color);
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 800px;
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: 900;
+  text-align: center;
+}
+.popup .search-icon,
+.popup .close-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+.popup .search-icon .icon,
+.popup .close-icon .icon {
+  width: 2rem;
+  height: 2rem;
+}
+#search {
+  position: fixed;
+  top: 0.6rem;
+  right: 0.8rem;
+}
+#search .icon {
+  color: #ff8c00;
+}
 #comment {
   margin: 0 1rem;
   padding: 1rem;
