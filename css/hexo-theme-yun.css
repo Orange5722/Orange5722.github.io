@@ -1982,7 +1982,8 @@ body::before {
   text-decoration: underline;
 }
 .search-popup {
-  background-image: url("https://i.loli.net/2021/08/31/WxR1KeCZOSpQswm.jpg");
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2096,9 +2097,6 @@ body::before {
     background-color: rgba(27,31,46,0.95);
     background-image: url("https://i.loli.net/2021/09/01/ilDUBVzfy2P4ZuJ.jpg");
   }
-  :root:not([data-user-color-scheme]) .search-popup {
-    background-image: url("https://i.loli.net/2021/08/31/eL9Hc65VUqksWYa.jpg");
-  }
   :root:not([data-user-color-scheme]) .post-card {
     color: #fff;
     background-color: rgba(27,31,46,0.9);
@@ -2166,9 +2164,6 @@ body::before {
 [data-user-color-scheme='dark'] .sidebar {
   background-color: rgba(27,31,46,0.95);
   background-image: url("https://i.loli.net/2021/09/01/ilDUBVzfy2P4ZuJ.jpg");
-}
-[data-user-color-scheme='dark'] .search-popup {
-  background-image: url("https://i.loli.net/2021/08/31/eL9Hc65VUqksWYa.jpg");
 }
 [data-user-color-scheme='dark'] .post-card {
   color: #fff;
