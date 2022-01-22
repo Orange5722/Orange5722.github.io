@@ -231,6 +231,21 @@ body::before {
     opacity: 1;
   }
 }
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/arrow.cur?raw=true"), auto;
+}
+a {
+  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), auto;
+}
+a:hover {
+  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), auto;
+}
+.hty-icon-button {
+  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), pointer;
+}
+input {
+  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur"), auto;
+}
 :root {
   --banner-line-color: #000;
   --banner-char-color: #000;
@@ -798,7 +813,7 @@ body::before {
 }
 .wordcloud #wordcloud-canvas,
 .wordcloud #wordcloud-sidebar-canvas {
-  cursor: url("$cursor-pointer"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), pointer;
 }
 .wordcloud #wordbox {
   pointer-events: none;
