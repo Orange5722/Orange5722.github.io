@@ -232,19 +232,19 @@ body::before {
   }
 }
 body {
-  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/arrow.cur?raw=true"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur"), auto;
 }
 a {
-  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur"), auto;
 }
 a:hover {
-  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur"), auto;
 }
 .hty-icon-button {
-  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur"), pointer;
 }
 input {
-  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur"), auto;
 }
 :root {
   --banner-line-color: #000;
@@ -813,7 +813,7 @@ input {
 }
 .wordcloud #wordcloud-canvas,
 .wordcloud #wordcloud-sidebar-canvas {
-  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur"), pointer;
 }
 .wordcloud #wordbox {
   pointer-events: none;
@@ -2329,7 +2329,7 @@ input {
   position: relative;
   width: 15rem;
   margin: 1.5rem;
-  cursor: url("https://cdn.jsdelivr.net/gh/wh2004/appcloud@main/mouse_cursor/link.cur?raw=true"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur"), pointer;
 }
 .photo-list-item img {
   box-sizing: border-box;
